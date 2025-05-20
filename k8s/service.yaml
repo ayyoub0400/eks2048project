@@ -1,7 +1,6 @@
 apiVersion: v1
 kind: Service
 metadata:
-  namespace: game-2048
   name: service-2048
 spec:
   ports:
