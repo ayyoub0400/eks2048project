@@ -1,0 +1,19 @@
+# app.yaml
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: app-2048
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/ayyoub0400/eks2048project
+    targetRevision: HEAD
+    path: k8s
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: game-2048
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
