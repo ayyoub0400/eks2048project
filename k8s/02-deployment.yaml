@@ -14,7 +14,7 @@ spec:
         app.kubernetes.io/name: app-2048
     spec:
       containers:
-        - image: public.ecr.aws/docker/library/nginx:stable-perl
+        - image: docker.io/gengiskhan3/argocdwebapp:latest
           imagePullPolicy: Always
           name: app-2048
           ports:
