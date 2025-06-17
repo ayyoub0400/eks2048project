@@ -10,8 +10,6 @@ This project demonstrates a full CI/CD pipeline for deploying a containerised 20
 - **Terraform** – Infrastructure as Code for provisioning AWS resources  
 - **ArgoCD** – GitOps continuous deployment tool  
 - **Docker** – Containerisation of the 2048 game  
-- **GitHub Actions** – CI pipeline to build and push Docker images  
-- **Helm** – Kubernetes manifest templating and packaging  
 - **ExternalDNS** – Automatic DNS record management  
 - **ALB Ingress Controller** – Load balancing and HTTP routing  
 
