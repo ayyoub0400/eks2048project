@@ -14,4 +14,6 @@ This project demonstrates a full CI/CD pipeline for deploying a containerised 20
 - **Helm** – Kubernetes manifest templating and packaging  
 - **ExternalDNS** – Automatic DNS record management  
 - **ALB Ingress Controller** – Load balancing and HTTP routing  
-- **GoDaddy DNS** – Domain provider used for ExternalDNS integration
+
+![1747929009696](https://github.com/user-attachments/assets/affa2749-a8c2-41bc-9c5c-77a5313e2b62)
+![1747929009916](https://github.com/user-attachments/assets/321772bc-11bb-4827-954c-47568445a6b6)
